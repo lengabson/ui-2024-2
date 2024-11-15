@@ -1,0 +1,8 @@
+{
+  "name": "UI_2024-2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "11fc5c1a"
+}
