@@ -1,0 +1,83 @@
+.payment-card, .summary-card {
+  background-color: #1e1e2d;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #915eff;
+}
+
+.datos-pago h2{
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.input-field {
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+.payment-icons img {
+  width: 45%;
+  margin-right: 8px;
+}
+.datos-producto h3{
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+.datos-producto p{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+.terms-text {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.div-btn-pagar{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.btn-pagar{
+  width: 100px;
+  padding-bottom: 0.5rem;
+  --ion-color-btn:#915eff;
+  --background: var(--ion-color-btn);
+}
+.btn-pagar:hover{
+  --ion-color-btn:#665eff;
+  --background: var(--ion-color-btn);
+}
+.img-scooter-rent{
+  width: 100%;
+  border-radius: 12px;
+}
+.total-compra h3{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 2rem;
+  font-style: italic;
+  text-align: right;
+  color: rgb(216, 216, 216);
+  font-size: 1em;
+}
+.total-compra h2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: right;
+  color: white;
+  font-size: 2em;
+}
+
+@media only screen and (min-width: 0px) and (max-width:767px) {
+  .row{
+    flex-direction: column-reverse;
+  }
+}

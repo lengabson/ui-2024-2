@@ -1,0 +1,112 @@
+.btn-go-back:hover{
+  color:#5ec1ff;
+}
+ion-col{
+  padding: 1em;
+}
+
+.scooter-card, .details-card {
+  background-color: #1e1e2d;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #915eff;
+  gap: 2em;
+}
+ion-content {
+  --ion-background-color:black;
+}
+.scooter-image {
+  width: 100%;
+  border-radius: 12px;
+  margin: 1em 0;
+}
+.days-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.days-count {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.total-section h2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+hr{
+  background-color: #915eff;
+}
+.Name-scooter h1{
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  color: white;
+}
+.details h2{
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  color: white;
+}
+.dias h3{
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.details p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  padding-bottom: 1rem;
+  font-size: 2em;
+  gap: 1em;
+}
+.btn-alquilar{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.alquilar{
+  width: 100px;
+  padding-bottom: 0.5rem;
+  --ion-color-btn:#915eff;
+  --background: var(--ion-color-btn);
+}
+.plus-button{
+  align-items: center;
+  --ion-color-btn:#915eff;
+  --background: var(--ion-color-btn);
+}
+.minus-button{
+  align-items: center;
+  --ion-color-btn:#915eff;
+  --background: var(--ion-color-btn);
+}
+.alquilar:hover{
+  --ion-color-btn:#665eff;
+  --background: var(--ion-color-btn);
+}
+.plus-button:hover{
+  --ion-color-btn:#665eff;
+  --background: var(--ion-color-btn);
+}
+.minus-button:hover{
+  --ion-color-btn:#665eff;
+  --background: var(--ion-color-btn);
+}
+
+
+
